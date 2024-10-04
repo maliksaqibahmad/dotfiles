@@ -1,0 +1,21 @@
+configuration {
+    display-drun: "drun"; // Use application launcher
+    display-run: "run"; // Use run launcher
+    font: "Ubuntu Nerd Font 10"; // Change the font if desired
+}
+
+* {
+    background: #000000; // Black background
+    foreground: #ffffff; // White text
+    border: #000000; // Border color
+    selected-background: #1a1a1a; // Very dark gray for selected items
+    selected-foreground: #ffffff; // White text for selected items
+    urgent-background: #ff0000; // Red background for urgent items
+    urgent-foreground: #ffffff; // White text for urgent items
+}
+
+window {
+    background-color: #000000; // Window background
+    border: 0; // Remove borders
+}
+

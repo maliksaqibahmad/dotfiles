@@ -145,7 +145,6 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id kitty
 exec --no-startup-id redshift -O 4500
 exec --no-startup-id dunst
-exec --no-startup-id sudo mount /dev/sdb2 /mnt/spare
 
 # Volume control
 

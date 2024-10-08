@@ -1,11 +1,13 @@
 # i3 config file
 
 # Font for window titles and bar
-font pango:Ubuntu Nerd Font 10
+font pango:JetBrains Mono 10
 
 # Start i3bar to display a workspace bar
 bar {
     status_command i3status
+    position top
+    font pango:JetBrains Mono 8
 }
 
 # Set mod key to Alt
@@ -187,4 +189,4 @@ bindsym $mod+shift+x exec i3lock -c 000000
 #exec_always --no-startup-id polybar toph
 
 # Set wallpaper using feh
-# exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper.jpg

@@ -4,9 +4,9 @@ This repository is a backup of my configuration files for various applications t
 
 - **i3**: A tiling window manager that allows for efficient window management and keyboard navigation.
 - **Kitty**: A modern, feature-rich terminal emulator that supports GPU rendering.
-- **Ranger**: A text-based file manager with a minimalistic interface.
 - **Picom**: A compositor for X11, providing smooth window transitions and effects.
 - **Rofi**: A window switcher, application launcher, and more.
+- **ZSH**: A shell.
 
 ## Backup Details
 

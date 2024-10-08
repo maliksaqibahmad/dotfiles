@@ -110,7 +110,7 @@ assign [class="kitty"] $ws1
 assign [class="Brave-browser"] $ws2
 assign [class="Code"] $ws3
 assign [class="Spotify"] $ws4
-assign [class="Obsidian"] $ws5
+assign [class="obsidian"] $ws5
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload

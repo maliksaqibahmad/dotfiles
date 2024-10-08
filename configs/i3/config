@@ -27,7 +27,7 @@ bindsym $mod+Shift+q kill
 
 # Apps
 bindsym $mod+m exec code
-bindsym $mod+b exec firefox
+bindsym $mod+b exec brave
 bindsym $mod+n exec nautilus
 bindsym $mod+i exec spotify
 
@@ -71,7 +71,7 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces
 set $ws1 "1:Terminal"
-set $ws2 "2:Firefox"
+set $ws2 "2:Brave"
 set $ws3 "3:VSCode"
 set $ws4 "4:Spotify"
 set $ws5 "5 Obsidian"
@@ -107,8 +107,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign applications to specific workspaces
 assign [class="kitty"] $ws1
-assign [class="firefox"] $ws2
-assign [class="code"] $ws3
+assign [class="Brave-browser"] $ws2
+assign [class="Code"] $ws3
 assign [class="spotify"] $ws4
 assign [class="obsidian"] $ws5
 

@@ -13,6 +13,9 @@ bar {
 # Set mod key to Alt
 set $mod Mod1
 
+# Dmenu
+bindsym $mod+d exec dmenu_run
+
 # Font for window titles
 # font pango:monospace 9
 

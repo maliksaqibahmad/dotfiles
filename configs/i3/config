@@ -148,6 +148,7 @@ exec --no-startup-id kitty
 exec --no-startup-id redshift -O 4500
 exec --no-startup-id dunst
 exec --no-startup-id caffeine
+exec --no-startup-id redshift-gtk
 
 # Volume control
 

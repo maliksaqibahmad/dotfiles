@@ -31,9 +31,6 @@ bindsym $mod+b exec brave
 bindsym $mod+n exec nautilus
 bindsym $mod+i exec spotify
 
-# Start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run
-
 # Change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down

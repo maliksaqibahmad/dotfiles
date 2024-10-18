@@ -80,7 +80,6 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   git               # Git plugin
   zsh-syntax-highlighting # Syntax highlighting for zsh
-  tmux              # Tmux integration
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -133,7 +132,7 @@ alias ..='cd ..'                             # Move up one directory
 alias ...='cd ../..'                         # Move up two directories
 alias ....='cd ../../..'                     # Move up three directories
 alias docs='cd ~/Documents'                  # Quickly navigate to Documents folder
-alias dl='cd ~/Downloads'                    # Quickly navigate to Downloads folder
+alias downloads='cd ~/Downloads'                    # Quickly navigate to Downloads folder
 
 # Common commands
 alias cls='clear'                            # Clear terminal screen
@@ -181,7 +180,7 @@ alias hmmm='yay -Sy &> /dev/null && yay -Qu'
 alias yesss='source ~/.zshrc && echo ".zshrc sourced!"'
 
 # Weather
-alias weather='curl wttr.in/Gujrat | head -n -1' 
+alias weather='curl wttr.in/Gujrat | head -n -1'
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -208,4 +207,4 @@ export VISUAL="nvim"
 #
 # ~/.zshrc
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"

@@ -30,7 +30,7 @@ bindsym $mod+Shift+q kill
 
 # Apps
 bindsym $mod+m exec code
-bindsym $mod+b exec google-chrome-stable
+bindsym $mod+b exec brave
 bindsym $mod+n exec dolphin
 bindsym $mod+i exec spotify
 
@@ -70,7 +70,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # Define names for default workspaces
-set $ws1 "1:Chrome"
+set $ws1 "1:Brave"
 set $ws2 "2:VSCode"
 set $ws3 "3:Spotify"
 set $ws4 "4 Obsidian"
@@ -107,7 +107,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign applications to specific workspaces
 
-assign [class="google-chrome-stable"] $ws1
+assign [class="brave"] $ws1
 assign [class="Code"] $ws2
 assign [class="Spotify"] $ws3
 assign [class="obsidian"] $ws4
@@ -152,6 +152,7 @@ exec --no-startup-id kdeconnect-indicator
 exec --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id brightnessctl
 exec --no-startup-id clipmenu_run
+exec --no-startup-id klipper
 
 # Scratchpad terminal using Kitty
 exec --no-startup-id kitty

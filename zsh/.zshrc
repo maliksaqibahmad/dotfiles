@@ -172,6 +172,12 @@ alias yesss='source ~/.zshrc && echo ".zshrc sourced!"'
 # Weather
 alias weather='curl wttr.in/Gujrat | head -n -1'
 
+# Reload Xmodmap
+alias reloadxmodmap='xmodmap ~/.Xmodmap'
+
+# VS Code
+alias c='code'
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -187,10 +193,10 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 # Automatically start tmux if not already inside tmux
-#if [[ -z "$TMUX" ]] && [ -n "$PS1" ]; then
+# if [[ -z "$TMUX" ]] && [ -n "$PS1" ]; then
 #    tmux
 #    exit  # Exit the terminal after tmux exits
-#fi
+# fi
 
 
 # eval "$(starship init zsh)"

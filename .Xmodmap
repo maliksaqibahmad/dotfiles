@@ -1,0 +1,6 @@
+! Map Scroll Lock to the | (bar) key
+keycode 78 = bar
+
+! Map Insert to the \ (backslash) key
+keycode 118 = backslash
+

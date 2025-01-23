@@ -187,6 +187,9 @@ alias phone="ssh u0_a326@xiaomi -p 8022"
 # Ranger
 alias rn="ranger"
 
+# Obsidian Sync
+alias obsidiansync="bash ~/Documents/scripts/obsidian-backup"
+
 # Run dotfiles backup script
 alias dotfiles="$HOME/Documents/scripts/dotfiles-script.sh"
 

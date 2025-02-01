@@ -217,3 +217,6 @@ export NVM_DIR="$HOME/.nvm"
 # Java Runtime
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
+
+# Created by `pipx` on 2025-01-26 03:28:27
+export PATH="$PATH:/home/saqib/.local/bin"
